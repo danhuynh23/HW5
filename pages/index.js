@@ -4,10 +4,10 @@ import { csv, json } from "d3";
 import { Row, Col, Container } from "react-bootstrap";
 import styles from './assignment5_styles.module.css';
 
-import { groupByAirline, groupByAirport } from "./components/utils.js";
+import { groupByAirline, groupByAirport } from "../components/utils.js";
 
-import { AirportMap }  from "./components/airportMap.js";
-import { BarChart } from "./components/barChart.js";
+import { AirportMap }  from "../components/airportMap.js";
+import { BarChart } from "../components/barChart.js";
 
 
 
